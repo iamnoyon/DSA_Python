@@ -30,3 +30,25 @@ while(palnum > 0):
     palnum2 = palnum2 * 10 + rem
 
 print(mainInput == palnum2)
+
+
+
+
+################## Armstrong number ###############
+mainValue = 153
+temp = mainValue
+counter = 0
+
+while(temp > 0):
+    counter += 1
+    temp = int(temp/10)
+
+sum = 0
+temp2 = mainValue
+
+while(temp2 > 0):
+    rem = temp2%10
+    sum = (rem**counter) + sum
+    temp2 = int(temp2/10)
+
+print(mainValue == sum)
