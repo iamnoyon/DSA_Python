@@ -52,3 +52,12 @@ while(temp2 > 0):
     temp2 = int(temp2/10)
 
 print(mainValue == sum)
+
+lenth = len(str(mainValue))
+
+# while(temp2 > 0):
+#     rem = temp2%10
+#     sum = (rem**counter) + sum
+#     temp2 = int(temp2/10)
+
+# print(mainValue == sum)    
